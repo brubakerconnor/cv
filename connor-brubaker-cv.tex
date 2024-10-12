@@ -1,0 +1,122 @@
+\documentclass[11pt,letter]{moderncv}
+\usepackage{newtxtext}    %% or newtxtext for times 
+
+% style
+\moderncvstyle{banking}
+\moderncvcolor{black}
+
+% character encoding
+% \usepackage[utf8]{inputenc}
+
+% margins and page layout
+\usepackage[scale=0.9]{geometry}
+\nopagenumbers
+\recomputelengths
+
+% personal data
+\firstname{Connor}
+\familyname{Brubaker}
+\address{College Station, TX}{}
+\mobile{(737) 217 - 3632}
+\email{brubaker@tamu.edu}
+\social[linkedin]{connorbrubaker}
+\social[github]{brubakerconnor}
+
+\begin{document}
+\maketitle
+
+% summary
+\section{Summary}
+Ph.D. candidate in statistics with expertise in time series analysis, spatial statistics, and machine learning and strong proficiency in R and Python. Thrives in interdisciplinary collaborative environments aimed at solving complex problems and seeks a role in designing well-crafted statistical solutions for automation and discovery. 
+
+% education
+\section{Education}
+\cventry{2025}{Ph.D. in Statistics}{Texas A\&M University}
+    {College Station, Texas}{}{}
+\cventry{2019}{B.S. in Mathematics}{The University of Texas at Austin}
+    {Austin, Texas}{}{}
+
+% work experience
+\section{Experience}
+\cventry{Jun. 2022 - Aug. 2022}{Data Science Intern}{Liberty Mutual Insurance}{Boston, MA}{}{
+\begin{itemize}
+    \item Restructured and performed morphological and syntactic analysis on large, annotated text corpora using R and Python.
+    \item Designed and validated hierarchical machine learning models based on transformers for automatic underwriting risk segmentation.
+\end{itemize}
+}
+
+\cventry{Dec. 2019 - Jul. 2020}{Engineering Research Associate}{Applied Research Laboratories}{Austin, TX}{}{
+\begin{itemize}
+    \item Adapted existing Python code for online object tracking in TensorFlow for tracking objects in sonar images.
+    \item Developed and trained convolutional neural network-based models for dimensionality reduction and clustering of image data.
+    \item Developed educational materials for an internal course on machine learning.
+\end{itemize}
+}
+
+\cventry{May 2019 - Aug. 2019}{Data Intern}{Alerian}{Dallas, TX}{}{
+\begin{itemize}
+    \item Developed automated reporting and backtesting processes in Visual Basic, enhancing accuracy and significantly reducing time costs.
+    \item Applied time series forecasting and causal inference to evaluate the impact of marketing budget changes on website traffic and sales.
+\end{itemize}
+}
+
+% teaching experience
+% \section{Teaching Experience}
+% \cventry{Spring 2024}{STAT 211: Principles of Statistics I}{Texas A\&M University}{}{}{}
+% \cventry{Fall 2021}{STAT 302: Statistical Methods}{Texas A\&M University}{}{}{}
+
+% publications
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{Publications}
+
+% collaborative projects
+\section{Collaborative Projects}
+\cventry{2024}{Collaboration with the Department of Geology \& Geophysics at Texas A\&M}{Survey Analysis of K-12 Teacher Sentiment Towards AI in Education}{}{}{}
+\cventry{2024}{Collaboration with the Department of Atmospheric, Oceanic \& Earth Sciences at George Mason University}{Automatic Storm Track Identification via Spatiotemporal Regionalization of Weather Data}{}{}{}
+\cventry{2024}{Collaboration with the Department of Entomology at Texas A\&M}{Quasi-Poisson Regression Analysis of Fly Production Data}{}{}{}
+\cventry{2024}{Collaboration with the Department of Industrial \& Systems Engineering at Texas A\&M}{Cluster Analysis of EOG Measurements for the Detection of Fatigue}{}{}{}
+\cventry{2023}{Collaboration with the Natural Resources Institute at Texas A\&M}{Analysis of Home Range and Ecological Needs of the Western Chicken Turtle}{}{}{}
+\cventry{2022}{Collaboration with the College of Medicine at Texas A\&M}{Meta-Analysis on the Link between Tissue Origin and Role of Dkk-1 in Cancer Progression}{}{}{}
+
+% teaching
+\section{Teaching}
+\cvlistitem{Instructor for STAT 211, Principles of Statistics I. Spring 2022.}
+\cvlistitem{Instructor for STAT 302, Statistical Methods. Fall 2021.}
+\cvlistitem{TA for STAT 673, Time Series Analysis I. Fall 2024.}
+\cvlistitem{TA for STAT 652, Statistics in Research II. Summer 2021.}
+\cvlistitem{TA for STAT 611, Theory of Statistical Inference. Spring 2021.}
+\cvlistitem{TA for STAT 608, Regression Analysis. Fall 2020.}
+
+% presentations
+\section{Presentations}
+\cventry{August 2024}{Contributed Talk}{Joint Statistical Meetings 2024}{Portland, OR}{}{}
+\cventry{August 2023}{Contributed Talk}{Joint Statistical Meetings 2023}{Toronto, ON, CA}{}{}
+\cventry{June 2023}{Poster}{SRCOS Summer Research Conference}{Waco, TX}{}{}
+\cventry{May 2023}{Poster}{SETCASA Poster Competition}{College Station, TX}{}{}
+
+% awards and recognition
+\section{Awards \& Recognition}
+\cventry{2023}{Travel Award}{SRCOS Summer Research Conference}{Waco, TX}{}{}
+\cventry{2023}{Silver Award}{SETCASA Poster Competition}{College Station, TX}{}{}
+\cventry{2022}{Nominated for College of Science Award for 
+    Outstanding Achievement in Graduate Teaching}{Texas A\&M University}
+    {College Station, TX}{}{}
+
+% service
+\section{Service}
+\cventry{April 2024}{Guest Lecturer}{ASA DataFest at Southern Methodist University}{Dallas, TX}{}{}
+\cventry{June 2023}{Volunteer Instructor}{Department of Statistics Data Science Summer Camp}{College Station, TX}{}{}
+
+% professional organizations
+\section{Professional Organizations}
+\cvlistitem{American Statistical Association}
+\cvlistitem{International Chinese Statistical Association}
+\cvlistitem{American Guild of Organists}
+
+% skills
+\section{Skills}
+\cvline{Software}{R, Python, TensorFlow, PyTorch, C++, SQL, Shell, Docker}
+\cvline{Statistical}{Time series analysis, regression analysis, spatial statistics, machine learning, natural language processing, cluster analysis, Bayesian methodology}
+
+\end{document}
